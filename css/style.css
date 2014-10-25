@@ -1,0 +1,155 @@
+/* Empty. Add your own CSS if you like */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
+
+h1,h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	color:#fff;
+	text-transform:uppercase;
+	}
+	
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	color:fff;
+	line-height:14px;
+	}
+	
+.logo{
+	height:auto;
+	width:160px !important;	
+	}
+
+/*restaurant details*/	
+.restaurant {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:36px;
+	padding:10px;
+	}
+
+.item-location {
+	height:170px;
+	padding-top:10px;
+	border-bottom:1px solid #ccc;
+	}
+
+.address {
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight: 300;
+	font-size:13px;
+	padding-left:10px;
+	}
+	
+.phone {
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight: 600;
+	font-size:13px;
+	padding:10px;
+	}
+	
+.realtime {
+	width:70%;
+	margin-left: auto;
+    margin-right: auto;
+	background-color: rgba(255, 136,0, 0.5);
+	padding:3px;
+	text-align: center;
+	line-height:13px;
+	margin-top:10px;
+	}
+	
+.realtime-update {
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#fff;
+	text-transform:uppercase;
+	text-align: center; 
+	font-weight: 600;
+	font-size:14px;
+	}
+	
+.deal {
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#fff;
+	text-transform:uppercase;
+	text-align: center; 
+	font-weight: 500;
+	font-size:13px;
+	margin-top:15px;
+	}	
+	
+/*end restaurant details*/	
+	
+/*header*/		
+.ion-navicon{
+	color:#ccc;
+	}
+	
+.ion-gear-b {
+	color:#ccc;
+	}
+	
+.tabs {
+    background-color: #333;
+    background-size: 0 auto;
+    border-top: none;
+    bottom: 0;
+    color: #fff;
+	height: 55px;
+	}
+
+.bar-header {
+    background: #666;
+	border:none;
+	border-bottom:3px solid #444;
+	padding-top:10px;
+	}
+	
+.bar.bar-stable {
+    background-color: #444;
+    background-image: linear-gradient(0deg, #b2b2b2, #b2b2b2 50%, transparent 50%);
+    color: #444;
+}		
+	
+.tabs-icon-top. {
+    font-size:10px;
+    line-height: 20px;
+	}
+	
+.tab-item .icon {
+    display: block;
+    font-size: 24px;
+    height: 32px;
+    margin: 0 auto;
+	padding:5px
+	}
+	
+.tabs-top {
+    padding-top: 5px;
+	}
+	
+.tabs-icon-top .tabs .tab-item, .tabs-icon-bottom > .tabs .tab-item, .tabs-icon-bottom.tabs .tab-item {
+    border: 1px solid #555;
+}
+
+.tabs-icon-top > .tabs .tab-item, .tabs-icon-top.tabs .tab-item, .tabs-icon-bottom > .tabs .tab-item, .tabs-icon-bottom.tabs .tab-item {
+    font-size: 9px;
+    line-height: 14px;
+}
+/*end header*/	
+
+/*Search*/
+.item-input-inset .item-input-wrapper input {
+    background: none repeat scroll 0 0 transparent;
+}	
+
+.search-home {
+	height:24px;
+	width: 90%;
+	padding-left: 38px;
+	}
